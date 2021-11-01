@@ -1,0 +1,57 @@
+body {
+    
+    font-family: sans-serif;    
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 900px;
+      
+}
+
+#see-more{
+
+    align-self: center;
+    font-size: small;
+    margin-right: 20rem;  
+}
+
+#main-body{
+
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+
+}
+
+.story{ 
+
+display: flex;
+flex-direction: row;
+margin-bottom: 1rem; 
+}
+
+.main-text{
+
+    font-weight: bold;
+    margin: 1px;
+    justify-content: center;
+    margin-left: 0.5rem;
+    align-self: center;   
+}
+
+.read-more{
+
+    color: red;
+    text-decoration-line: underline;
+    display: flex;
+    align-self: flex-end;
+    white-space: nowrap;
+}
+
+
+
+
